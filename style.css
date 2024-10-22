@@ -1,0 +1,646 @@
+@media(max-width: 480px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: 0;
+    border: 0;
+}
+
+#Page1 {
+    background-image: url(azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#nav {
+    color: white;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+#cont {
+    border: solid;
+    border-color: red;
+    padding: 5px;
+    align-items: center;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 100px;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    left: 45%;
+    top: 40%;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: baseline;
+    left: 42%;
+    top: 53%;
+    gap: 1%;
+    font-family: "inter";
+}
+
+#subtexto {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 41.5%;
+    top: 60%;
+    font-family: "inter";
+    font-size: 15px;
+}
+
+#namemaiuscula {
+    font-size: 50px;
+    color: #FF0000;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 50%;
+}
+
+#nameminuscula {
+    color: #CD0D0D;
+    font-weight: 1000;
+    font-size: 40px;
+    opacity: 72%;
+}
+
+#Page2 {
+    background-color: #1F2233;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#fotoMe {
+    border: 10px solid #30344B;
+    position: absolute;
+    height: 592px;
+    left: 9%;
+    top: 119%;
+}
+
+#Sobre {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 798px;
+    top: 118%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#sobre2 {
+    display: grid;
+    box-sizing: border-box;
+    position: absolute;
+    width: 812px;
+    height: 278px;
+    left: 798px;
+    top: 150%;
+    background: #25273E;
+    border: 2px solid #FF0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+}
+
+#name {
+    position: absolute;
+    width: 269px;
+    height: 24px;
+    left: 31px;
+    top: 31px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#phone {
+    position: absolute;
+    width: 197px;
+    height: 24px;
+    left: 31px;
+    top: 123px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#address {
+    position: absolute;
+    width: 350px;
+    height: 24px;
+    left: 31px;
+    top: 217px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#age {
+    position: absolute;
+    width: 269px;
+    height: 23px;
+    left: 406px;
+    top: 31px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#email {
+    position: absolute;
+    width: 334px;
+    height: 23px;
+    left: 406px;
+    top: 123px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#training {
+    position: absolute;
+    width: 367px;
+    height: 24px;
+    left: 406px;
+    top: 217px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#Page3 {
+    display: flex;
+    background-color: #25273E;
+    background-size: cover;
+    height: 210vh;
+    width: 100%;
+}
+
+#Projetos {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 3%;
+    top: 203%;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#ogani {
+    border: 2px solid #FF0000;
+    border-radius: 30px;
+    position: absolute;
+    width: 868px;
+    height: 439px;
+    left: 71px;
+    top: 220vh;
+}
+
+#tituloOgani {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 70%;
+    top: 220vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#descricaoOgani {
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 229vh;
+    font-family: "Inria+Serif:ital";
+    font-size: 20px;
+}
+
+#sabor {
+    border: 2px solid #FF0000;
+    border-radius: 30px;
+    position: absolute;
+    width: 868px;
+    height: 439px;
+    left: 940px;
+    top: 290vh;
+}
+
+#tituloSabor {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 200px;
+    top: 290vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#descricaoSabor {
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 300vh;
+    font-family: "Inria+Serif:ital";
+    font-size: 20px;
+}
+
+#tabela {
+    border: 2px solid #FF0000;
+    border-radius: 30px;
+    position: absolute;
+    width: 868px;
+    height: 439px;
+    left: 71px;
+    top: 360vh;
+}
+
+#tituloTabela {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 70%;
+    top: 360vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#descricaoTabela {
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 370vh;
+    font-family: "Inria+Serif:ital";
+    font-size: 20px;
+}
+
+#Page4 {
+    display: flex;
+    background-color: #25273E;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#habilidades {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 3%;
+    top: 420vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#ferramentasGoogle {
+    border: 2px solid #ff0000;
+    border-radius: 5%;
+    position: absolute;
+    top: 430vh;
+    left: 10%;
+    width: 450px;
+    height: 240px;
+    padding: 1%;
+}
+
+#linguagens {
+    border: 2px solid #ff0000;
+    border-radius: 5%;
+    position: absolute;
+    top: 430vh;
+    left: 55%;
+    width: 450px;
+    height: 240px;
+    padding: 1%;
+}
+
+#linguagensTitle {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: fit-content;
+    line-height: 72px;
+}
+
+#planilhasExcel {
+    border: 2px solid #ff0000;
+    border-radius: 5%;
+    position: absolute;
+    top: 470vh;
+    left: 10%;
+    width: 450px;
+    height: 240px;
+    padding: 1%;
+}
+
+#linguagensBlocos {
+    border: 2px solid #ff0000;
+    border-radius: 5%;
+    position: absolute;
+    top: 470vh;
+    left: 55%;
+    width: 450px;
+    height: 240px;
+    padding: 1%;
+}
+
+h1 {
+    font-family: 'Inria Serif';
+    color: #ADB5BD;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    justify-content: center;
+
+}
+
+p {
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#ferramentas {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: fit-content;
+    line-height: 72px;
+}
+
+svg {
+    margin: 2%;
+}
+
+.elementosfer {
+    display: flex;
+}
+
+.elementoslin {
+    display: flex;
+}
+
+.elementosPla {
+    display: flex;
+}
+
+.elementosBlo {
+    display: flex;
+}
+
+#planilhasTitle {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: fit-content;
+    line-height: 72px;
+}
+
+#linguagemTitle {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: fit-content;
+    line-height: 72px;
+}
+
+#Page5 {
+    display: flex;
+    background-color: #1F2233;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+
+#elementosTitle {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 3%;
+    top: 513vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#elementosTel {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 513vh;
+    text-align: center;
+    align-items: center;
+}
+
+#telefone {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    left: 78px;
+    top: 91px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 1%;
+    padding-left: 9%;
+}
+
+.logotel {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 91px;
+}
+
+#elementosEmail {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    left: 78px;
+    top: 150px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 1%;
+    padding-left: 9%;
+}
+
+.logoEmail {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 150px;
+}
+
+#elementosTitle2 {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 40%;
+    top: 513vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#GitHub {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 78px;
+    top: 91px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#ElementosGit {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 513vh;
+    left: 37%;
+    text-align: center;
+    align-items: center;
+}
+
+.logogit {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 91px;
+}
+
+#ElementosLink {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 519vh;
+    left: 37%;
+    text-align: center;
+    align-items: center;
+}
+
+.logolink {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 91px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 78px;
+    top: 91px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+#elementosTitle3 {
+    display: flex;
+    font-family: "Inria+Serif:ital";
+    position: absolute;
+    left: 85%;
+    top: 513vh;
+    color: white;
+    font-size: 50px;
+    border-bottom: 1px solid #FF0000;
+}
+
+#ElementosInsta {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 513vh;
+    left: 82%;
+    text-align: center;
+    align-items: center;
+}
+
+.logoinsta {
+    position: absolute;
+    width: 130px;
+    height: 24px;
+    top: 91px;
+}
+
+#Instagram {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 78px;
+    top: 91px;
+    font-family: 'Inria Serif';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
